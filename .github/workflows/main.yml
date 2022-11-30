@@ -8,7 +8,7 @@ jobs:
     runs-on:  ubuntu-latest
     steps:
       - name: Create annotation for build error
-        run: echo "::error file=app.txt,line=1::Missing semicolon"
+        run: echo "file=app.txt,line=1"
           
           
       
