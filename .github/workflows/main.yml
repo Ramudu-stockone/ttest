@@ -7,11 +7,8 @@ jobs:
   change: 
     runs-on:  ubuntu-latest
     steps:
-      - name:  Modify yml
-        run:  |
-          git clone https://github.com/Ramudu-stockone/ttest.git
-          cd ttest
-          echo \t\t\t\t\t hub pr
+      - name: Create annotation for build error
+        run: echo "::error file=app.txt,line=1::Missing semicolon"
           
           
       
