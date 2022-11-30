@@ -9,7 +9,7 @@ jobs:
     steps:
       - name:  Modify yml
         run:  |
-          git clone .github/workflows/main.yml
+          git clone https://github.com/Ramudu-stockone/ttest.git
           cd ttest
           cat README.md
           
