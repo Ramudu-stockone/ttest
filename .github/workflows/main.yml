@@ -9,6 +9,6 @@ jobs:
     steps:
       - name:  Modify yml
         run:  |
-          pwd
+          cat README.md
           
       
