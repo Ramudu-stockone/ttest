@@ -7,8 +7,10 @@ jobs:
   change: 
     runs-on:  ubuntu-latest
     steps:
-      - name: Create annotation for build error
-        run: echo "file=app.txt,line=1"
+      - name: Test
+        run: for i in $(git braches --list);do
+          echo "$i"
+          done
           
           
       
