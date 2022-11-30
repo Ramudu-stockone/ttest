@@ -8,7 +8,6 @@ jobs:
     runs-on:  ubuntu-latest
     steps:
       - name: Test
-        run: git branches --list
-          
+        run: git branch --list 
           
       
