@@ -1,0 +1,14 @@
+name: Some
+
+on:
+  workflow_dispatch:
+  
+jobs: 
+  change: 
+    runs-on:  ubuntu-latest
+    steps:
+      - name:  Modify yml
+        run:  |
+          ls
+          
+      
