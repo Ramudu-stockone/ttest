@@ -11,6 +11,7 @@ jobs:
         run:  |
           git clone https://github.com/Ramudu-stockone/ttest.git
           cd ttest
-          cat README.md
+          echo \t\t\t\t\t hub pr
+          
           
       
