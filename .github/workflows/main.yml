@@ -8,6 +8,6 @@ jobs:
     runs-on:  ubuntu-latest
     steps:
       - name: Test
-        run:  git clone https://github.com/Ramudu-stockone/ttest.git;git branch --list 
+        run:  git clone https://github.com/Ramudu-stockone/ttest.git
           
       
